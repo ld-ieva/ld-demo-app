@@ -15,8 +15,8 @@ provider "launchdarkly" {
 }
 
 resource "launchdarkly_project" "terraform" {
-  key  = "cody-ld-demo-tf"
-  name = "cody-ld-demo-tf"
+  key  = "ieva-ld-demo-tf"
+  name = "ieva-ld-demo-tf"
 
   tags = [
     "terraform",
